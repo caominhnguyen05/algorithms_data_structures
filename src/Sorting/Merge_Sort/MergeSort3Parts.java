@@ -1,24 +1,27 @@
+package Sorting.Merge_Sort;
+
 import java.util.*;
+
 public class MergeSort3Parts {
     public static int[] coatiSort(int[] arr) {
-        if (arr == null || arr.length <=1) {
+        if (arr == null || arr.length <= 1) {
             return arr;
         }
         int n = arr.length;
 
         int partitionSize;
         if (n % 3 == 2) {
-            partitionSize = n/3 + 1;
+            partitionSize = n / 3 + 1;
         } else {
-            partitionSize = n/3;
+            partitionSize = n / 3;
         }
 
 
         int[] subArray1 = Arrays.copyOfRange(arr, 0, partitionSize);
 
-        int[] subArray2 = Arrays.copyOfRange(arr, partitionSize, partitionSize*2);
+        int[] subArray2 = Arrays.copyOfRange(arr, partitionSize, partitionSize * 2);
 
-        int[] subArray3 = Arrays.copyOfRange(arr, partitionSize*2, arr.length);
+        int[] subArray3 = Arrays.copyOfRange(arr, partitionSize * 2, arr.length);
 
         subArray1 = coatiSort(subArray1);
         subArray2 = coatiSort(subArray2);
@@ -55,7 +58,7 @@ public class MergeSort3Parts {
     }
 
     public static void main(String[] args) {
-        int[] input = { 4, 2, 5, 1, 3 };
+        int[] input = {4, 2, 5, 1, 3};
         int[] result = coatiSort(input);
         System.out.println(Arrays.toString(result));
     }

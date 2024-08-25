@@ -1,4 +1,4 @@
-package MSDRadixSort;
+package Sorting.MSDRadixSort;
 import java.util.*;
 
 public class Solution {

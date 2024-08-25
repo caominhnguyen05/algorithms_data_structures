@@ -1,4 +1,4 @@
-package QuickSelect;
+package Sorting.QuickSelect;
 import java.util.*;
 
 public class Solution {

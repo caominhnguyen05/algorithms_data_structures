@@ -1,4 +1,4 @@
-package Merge_Sort;
+package Sorting.Merge_Sort;
 
 public class Solution {
     public static LibraryQueue<Lawyer> sortingSomeLawyer(LibraryQueue<Lawyer> queue) {

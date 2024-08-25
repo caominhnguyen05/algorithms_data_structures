@@ -1,4 +1,4 @@
-package Merge_Sort;
+package Sorting.Merge_Sort;
 import java.util.*;
 
 public class Lawyer {

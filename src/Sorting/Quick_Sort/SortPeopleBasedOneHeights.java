@@ -1,4 +1,4 @@
-package Quick_Sort;
+package Sorting.Quick_Sort;
 
 public class SortPeopleBasedOneHeights {
     public String[] sortPeople(String[] names, int[] heights) {

@@ -1,4 +1,4 @@
-package Quick_Sort;
+package Sorting.Quick_Sort;
 
 import java.util.LinkedList;
 import java.util.Queue;

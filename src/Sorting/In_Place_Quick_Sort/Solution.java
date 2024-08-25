@@ -1,4 +1,4 @@
-package In_Place_Quick_Sort;
+package Sorting.In_Place_Quick_Sort;
 
 import java.util.Arrays;
 
